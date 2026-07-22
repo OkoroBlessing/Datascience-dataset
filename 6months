@@ -1,0 +1,62 @@
+My honest assessment first, since you asked for it.
+
+**Do not retrain as a financial analyst.** The FMVA/CFA route restarts you at the bottom of a credential ladder against accounting and economics graduates, for entry salaries below what data roles pay. Your leverage runs the other way: finance firms are desperate for data and ML people who understand the domain. You enter finance through the data door, not the finance door. You already hold two finance-domain projects: a bank churn model and an AML detection suite. Half the positioning work is done.
+
+**The three realistic target roles**
+
+- Financial crime / fraud analytics: UK banks and fintechs hire these in volume for compliance reasons. Your AML project speaks directly to it.
+- Credit risk analytics: scorecard modelling is applied ML with the deepest analyst hiring pipeline in UK finance.
+- Data analyst/scientist at fintechs and banks: Monzo, Starling, Revolut, Zopa, NatWest, Lloyds, plus consultancies serving them, like the Brighton JD.
+
+Quant roles: park them. They demand heavy mathematics plus C++/advanced stats and take 12-24 months of preparation. Revisit after you are inside the industry.
+
+**THE 6-MONTH PLAN**
+
+**Month 1: Finance foundations**
+
+- Course: Financial Markets by Robert Shiller (Yale, Coursera, free to audit, ~15 hours). Covers banking, risk, insurance, markets. The vocabulary layer.
+- Course: Accounting Fundamentals (Corporate Finance Institute, free tier, ~5 hours). Read a balance sheet and P&L. Every finance conversation assumes this.
+- Reading: FCA business plan and one FATF typologies report. Free, and they arm your AML project with regulator language.
+- Ship: finish the AML repo with README and real precision numbers.
+
+**Month 2: Credit risk project**
+
+- Course: Credit Risk Modelling in Python (DataCamp or 365 Data Science, ~10 hours). Teaches PD models, scorecards, expected loss: the industry's core method.
+- Project: Home Credit Default Risk dataset (Kaggle). Build a probability-of-default model with the same business layer as your churn work: costs of a bad loan vs a rejected good customer, threshold economics, an approval-rate vs loss-rate trade-off chart.
+- This gives you the credit risk vocabulary interviewers test: PD, LGD, Gini, KS statistic, scorecard binning.
+
+**Month 3: Positioning and first applications**
+
+- Rewrite the CV summary for finance: "Data scientist with three financial services projects: churn economics, AML typology detection, credit risk modelling."
+- LinkedIn headline update and one post per project, Situation-Challenge-Response-Lesson format.
+- Apply: 10 roles per week across the three target role types. Include consultancies, since they hire generalists into finance clients.
+- Network: one message per week to a fraud or credit risk analyst at a target firm. Ask about their day, not for a job.
+
+**Month 4: Domain depth, pick one lane based on interview traction**
+
+- If fraud/AML interviews land: study the ICA Certificate in AML syllabus (or the free FATF/JMLSG materials before paying). Add a rule-velocity or network-graph extension to the AML project.
+- If credit risk lands: SQL scorecard monitoring project, plus IFRS 9 expected credit loss reading.
+- If general data roles land: Azure deployment of the churn model plus DP-900, closing the cloud gap.
+
+**Month 5: Interview engine**
+
+- Prepare the three project stories to two minutes each: question, method, number, business decision.
+- Drill SQL live-coding (StrataScratch or LeetCode database problems, 3 per week).
+- Drill the finance judgement questions: why do banks care about false positives, what makes a good alert, how would you price a retention offer. You already own these answers through your projects.
+- Keep applying. Volume drops only when interviews fill the calendar.
+
+**Month 6: Convert**
+
+- Target 15+ applications weekly if interviews remain thin, and ask every rejection for feedback.
+- Take contract or 6-month fixed-term roles seriously. Finance hires permanent staff from known contractors constantly.
+- Accept a role touching financial data even if the title disappoints. Twelve months inside a bank's data team outweighs any certificate.
+
+**What I deliberately left out**
+
+- CFA Level 1: 300 study hours, aimed at investment management, wrong tool for data roles. Consider it only if you later target investment analytics specifically.
+- ACAMS certification: £1,500+, worth it only once an employer pays.
+- FMVA: valuation modelling for corporate finance careers, not yours.
+
+**Cost of the whole plan:** under £150, mostly one DataCamp month. Everything else is free plus the work.
+
+Start tonight with the Shiller course enrolment and the AML repo. Send me the AML query outputs and the plan's first deliverable goes live this week.
